@@ -20,8 +20,6 @@ function App() {
   const drawerWidth = 240;
   const navItems = ["Home", "user", "Admin"];
 
-
-  
   return (
     <div className="App">
       <Box sx={{ display: 'flex' }}>
