@@ -22,6 +22,7 @@ const Login = () => {
         id="outlined-basic"
         label="Email"
         variant="outlined"
+        required
       />
       <TextField
         value={pass}
@@ -29,6 +30,7 @@ const Login = () => {
         id="outlined-basic"
         label="pass"
         variant="outlined"
+        required 
       />
       <br />
       <div className="button">
