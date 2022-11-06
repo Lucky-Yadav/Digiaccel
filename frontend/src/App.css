@@ -3,5 +3,9 @@
   padding-top: 200px;
   gap: 20px;
 }
-
-
+.logina {
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
