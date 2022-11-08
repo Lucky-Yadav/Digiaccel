@@ -16,7 +16,6 @@ const Register = () => {
   const dispatch = useDispatch();
   const [data, setData] = useState(obj1);
   const { name, email, password, username, mobile, description } = data;
-
   const handelchange = (e) => {
     const { name, value } = e.target;
     let playload = {

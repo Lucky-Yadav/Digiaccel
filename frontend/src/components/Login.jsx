@@ -11,11 +11,8 @@ var obj1 = {
 const Login = () => {
   const dispatch = useDispatch();
   const [data, setData] = useState(obj1);
-
   const { password, username } = data;
-
   const isAuth = useSelector((state) => state.login.isAuth);
-
   const handelchange = (e) => {
     const { name, value } = e.target;
     let playload = {
